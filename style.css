@@ -1,8 +1,16 @@
+body {
+    background-image: url(img/sheet_music_bgimg.jpeg);
+    background-size: cover;
+}
+
 .bg-hero-image {
     background-image: url('https://picsum.photos/1300/500');
     background-position: center center;
     background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: #d1d1d1;
 }
+
 h1 {
     font-size: 6vw !important;
 }
